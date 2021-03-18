@@ -10,21 +10,19 @@ The client is looking at the viability of Kickstarter to raise funds to stage a 
 Our analysis focuses on two key metrics for successful campaigns; the campaigns launch timing and the overall fundraising goal.
 
 First, a the category/subcategory column was separated using a built in excel feature. Then a filter for the parent category "theater" isolates campaigns similar to the client's proposal. According to the chart below, US-based campaigns in the "theater" category have a 58% success rate on their funding goals.
-***Insert Parent category bar chart here
+![Parent_Category_Outcomes](https://user-images.githubusercontent.com/25188111/111559183-4bddf100-874d-11eb-95df-a88c814af56e.png)
 
 The analysis continues to show the if there are commonalities for "successful" funding camapaigns.
 
 ### Analysis of Outcomes Based on Launch Date
 Using a pivot chart of launch date and outcome data separated by month, a time-series chart shows there is a seasonality to successful campaigns.
-
-***Insert outcomes by launch date chart here
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/25188111/111559215-56988600-874d-11eb-9fcd-0b2f7b6e976b.png)
 
 The chart shows the most successful theater campaigns launched in May and June during for campaigns in 2009-2014. Additionally, there is seemingly no correlation with timing for failed or canceled campaigns, implying that launch date timing alone is not responsible for campaign's failure.
 
 ### Analysis of Outcomes Based on Goals
 The second part of the anaylsis focuses on the overall funding goal's effect on it's success. Using a COUNTIFS statement, buckets of funding goals for "plays" campaigns were created and separated by success, failure, and canceled. Out of the 1,047 campaigns in the analysis, none were canceled. The isolation of the successful and failed campaigns relative to their funding goals is shown below.
-
-***Insert goals based chart here
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/25188111/111559270-716afa80-874d-11eb-830d-290c17e52734.png)
 
 The chart above shows campaigns with funding goals under $5,000 are typically more successful than those with higher goals. Additionally, it shows that as campaign goals are set higher than $5,000 they progressively become less successful. The data points for funding goals higher than $20,000 are limited.
 
